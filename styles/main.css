@@ -11,13 +11,13 @@
     text-align: center;
 }
 
-main img {
-    width: 40%;
+.main img {
+    width: 20%;
     margin: 1em;
 }
 
 .img-stacks {
-    width: 8em;
+    width: 5em;
     display: flex;
     padding: 0 1em 1em;
 }
@@ -31,6 +31,7 @@ main img {
     display: flex;
     justify-content: end;
     flex-direction: row-reverse;
+    padding: 2em;
 }
 
 .links-projeto-1 {
@@ -38,11 +39,14 @@ main img {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    padding-right: 1em;
 }
 
 .projeto-2 {
     display: flex;
     justify-content: start;
+    padding-bottom: 2em;
+    padding: 2em;
 }
 
 .links-projeto-2 {
@@ -50,9 +54,20 @@ main img {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    padding-left: 2em;
 }
 
 .projetos-links {
     text-decoration: none;
     color: var(--cor-da-fonte);
+}
+
+@media screen and (min-width: 820px) {
+    .projeto-1 img {
+        width: 60%;
+    }
+    
+    .projeto-2 img {
+        width: 60%;
+    }
 }

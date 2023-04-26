@@ -17,7 +17,7 @@
     position: relative;
     width: 5em;
     top: 15em;
-    left: 15em;
+    left: 10em;
 }
 
 .navegacao {
@@ -75,4 +75,14 @@
 .link-contato {
     text-decoration: none;
     color: var(--cor-da-fonte);
+}
+
+@media screen and (min-width: 820px) {
+    .img-perfil {
+        top: -60px;
+    }
+
+    .img-rings {
+        width: 50%;
+    }
 }

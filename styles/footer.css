@@ -1,0 +1,53 @@
+.rodape {
+    background-color: #454545;
+    border-radius: 1em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2em;
+}
+
+.container-texto h1 {
+    font-size: 3em;
+}
+
+.formulario-campo {
+    padding-top: 1em;
+}
+
+.campo-escrita {
+    width: 100%;
+    resize: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #0000;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    padding-bottom: 17px;
+    padding-left: 24px;
+}
+
+.botao {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #0000;
+    border: none;
+    border-bottom: 2px solid #03C988;
+    padding: 2em 0 .5em;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.625rem;
+}
+
+.rodape-nome {
+    text-align: center;
+    padding-top: 3em;
+}
+
+.rodape-links {
+    text-align: center;
+    padding: 1em;
+}
