@@ -1,4 +1,16 @@
+@import url("styles/header.css");
+
+:root {
+    --cor-de-fundo: #181818;
+    --fonte: 'Space Grotesk', sans-serif;
+    --cor-da-fonte: #FFFFFF;
+}
+
 body {
-    background-color: black;
-    font-family: 'Space Grotesk', sans-serif;
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte);
+    color: var(--cor-da-fonte);
+    font-size: 24px;
+    font-weight: 400;
+    margin: 3em 6em;
 }

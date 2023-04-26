@@ -1,0 +1,52 @@
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacao h3 {
+    display: flex;
+    padding-top: 1em;
+    text-transform: lowercase;
+}
+
+.navegacao-links {
+    padding: 1em;
+}
+
+.navegacao-links img {
+    margin-left: .5em;
+}
+
+.apresentacao h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.nome-sublinhado {
+    --cor: #03C988;
+    --transp: rgba(0,0,0,0);
+    background: var(--cor);
+    background: linear-gradient(
+    180deg, 
+    var(--transp) 60%,
+    var(--transp) 10%,
+    var(--cor) 21%,
+    var(--cor) 88%,
+    var(--transp) 95%,
+    var(--transp) 100%);
+}
+
+.apresentacao ul {
+    margin-top: 1em;
+}
+
+.apresentacao h4 {
+    margin-top: 1em;
+    text-decoration: none;
+}
+
+.img-perfil {
+    width: 30%;
+    position: relative;
+    justify-content: end;
+}

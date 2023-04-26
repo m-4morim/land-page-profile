@@ -5,36 +5,49 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Landing Page - Portfólio</title>
+        <title>Landing Page - Profile</title>
+        <link rel="stylesheet" href="./reset.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./style.css">
     </head>
 
     <body>
 
-        <nav>
+        <nav class="navegacao">
             <h3>Marcos Amorim</h3>
-            <img src="./images/github.svg" alt="GitHub">
-            <img src="./images/linkedin.svg" alt="LinkedIn">
-            <img src="./images/twitter.svg" alt="Twitter">
+            <div class="navegacao-links">
+                <a href="https://github.com/m-4morim">
+                    <img src="./images/github.svg" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/m-4morim">
+                    <img src="./images/linkedin.svg" alt="LinkedIn">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="./images/twitter.svg" alt="Twitter">
+                </a>
+            </div>
         </nav>
 
-        <header>
-            <h1>Hi! My name is Marcos Amorim.</h1>
-            <h2>Be welcome!</h2>
+        <header class="apresentacao">
+            <h1>Hi! My name is <span class="nome-sublinhado">Marcos Amorim</span>.</h1>
+            <h1>Be welcome!</h1>
 
             <ul>
-                <li>Front-end developer;</li>
-                <li>JavaScript main skill;</li>
-                <li>I`m studying Software Engineering and JS Frameworks at this point.</li>
+                <li><i class="fa-solid fa-code fa-2xs" style="color: #03c988;"></i> Front-end developer;</li>
+                <li><i class="fa-solid fa-code fa-2xs" style="color: #03c988;"></i> JavaScript main skill;</li>
+                <li><i class="fa-solid fa-code fa-2xs" style="color: #03c988;"></i> I`m studying Software Engineering and JS Frameworks at this point.</li>
             </ul>
 
-            <h4>Contact me</h4>
-            <img src="./images/profile.jpg" alt="Profile">
-            <img src="./images/rings.svg" alt="Rings">
-            <img src="./images/circle.svg" alt="Circle">
+            <a href="https://www.linkedin.com/in/m-4morim">
+                <h4>Contact me <i class="fa-solid fa-comment fa-2xs" style="color: #03c988;"></i></h4>
+            </a>
+
+            <img class="img-perfil" src="./images/profile.jpg" alt="Profile">
+            <img class="img-rings" src="./images/rings.svg" alt="Rings">
+            <img class="img-circle" src="./images/circle.svg" alt="Circle">
         </header>
 
     </body>
