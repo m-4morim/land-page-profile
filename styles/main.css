@@ -1,14 +1,58 @@
-main {
+.principal {
     border-top: var(--cor-da-fonte) solid;
 }
 
-main h1 {
-    padding-top: 2em;
-    font-size: 2em;
+.titulo-stacks, .titulo-projects {
+    padding: 2em 0 .5em;
+    font-size: 3em;
+}
+
+.titulo-projects {
+    text-align: center;
+}
+
+main img {
+    width: 40%;
+    margin: 1em;
 }
 
 .img-stacks {
-    width: 5em;
+    width: 8em;
     display: flex;
-    justify-content: space-evenly;
+    padding: 0 1em 1em;
+}
+
+.legenda {
+    border-left: gray solid 4px;
+    color: gray;
+}
+
+.projeto-1 {
+    display: flex;
+    justify-content: end;
+    flex-direction: row-reverse;
+}
+
+.links-projeto-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projeto-2 {
+    display: flex;
+    justify-content: start;
+}
+
+.links-projeto-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projetos-links {
+    text-decoration: none;
+    color: var(--cor-da-fonte);
 }
