@@ -1,6 +1,29 @@
+.apresentacao-imagens {
+    position: relative;
+}
+
+.img-perfil {
+    width: 30%;
+    float: right;
+    position: relative;
+    top: -100px;
+}
+
+.img-rings {
+    
+}
+
+.img-circle {
+    position: relative;
+    width: 5em;
+    top: 15em;
+    left: 15em;
+}
+
 .navegacao {
     display: flex;
     justify-content: space-between;
+    position: relative
 }
 
 .navegacao h3 {
@@ -14,7 +37,11 @@
 }
 
 .navegacao-links img {
-    margin-left: .5em;
+    margin-left: 1em;
+}
+
+.apresentacao {
+    padding-bottom: 6em;
 }
 
 .apresentacao h1 {
@@ -45,8 +72,7 @@
     text-decoration: none;
 }
 
-.img-perfil {
-    width: 30%;
-    position: relative;
-    justify-content: end;
+.link-contato {
+    text-decoration: none;
+    color: var(--cor-da-fonte);
 }
