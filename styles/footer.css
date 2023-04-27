@@ -11,6 +11,8 @@
 
 .container-texto h1 {
     font-size: 3em;
+    color: var(--verde);
+    padding: 1em 0;
 }
 
 .formulario-campo {
@@ -35,11 +37,27 @@
     text-transform: uppercase;
     background-color: #0000;
     border: none;
-    border-bottom: 2px solid #03C988;
     padding: 2em 0 .5em;
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.625rem;
+    margin-top: 1em;
+    position: relative;
+}
+
+.botao::after {
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: var(--verde);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .5s ease-in-out;
+}
+
+.botao:hover::after {
+    width: 100%;
 }
 
 .rodape-nome {
@@ -47,7 +65,11 @@
     padding-top: 3em;
 }
 
+.rodape-nome p {
+    color: var(--verde);
+}
+
 .rodape-links {
     text-align: center;
-    padding: 1em;
+    padding: .5em 0 1em;
 }
