@@ -57,6 +57,22 @@
     padding-left: 2em;
 }
 
+.projeto-3 {
+    display: flex;
+    justify-content: end;
+    padding: 2em;
+}
+
+.projeto-3 p {
+    display: flex;
+    align-items: center;
+    padding-right: 1em;
+}
+
+.link-projeto-3 img {
+    width: 4em;
+}
+
 .projetos-links {
     text-decoration: none;
     color: var(--cor-da-fonte);

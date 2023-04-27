@@ -1,3 +1,8 @@
+@keyframes rotate {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}
+
 .apresentacao-imagens {
     position: relative;
 }
@@ -7,10 +12,23 @@
     float: right;
     position: relative;
     top: -100px;
+    object-fit: cover;
+    transition: .5s all ease-in-out;
+    opacity: 60%;
+}
+
+.img-perfil:hover {
+    transform: scale(1.05);
+    opacity: 100%;
 }
 
 .img-rings {
-    
+    width: 8em;
+    animation-name: rotate;
+    animation-duration: 30s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 
 .img-circle {
