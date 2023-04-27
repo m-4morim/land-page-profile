@@ -115,16 +115,16 @@
                         </fieldset>
                         <fieldset class="formulario-campo">
                             <label class="campo-titulo" for="e-mail"></label>
-                            <input name="email" type="e-mail" class="campo-escrita" placeholder="EMAIL" minlength="10" required>
+                            <input name="email" type="email" class="campo-escrita" placeholder="EMAIL" minlength="10" required>
                             <span class="mensagem-erro"></span>
                         </fieldset>
                         <fieldset class="formulario-campo">
                             <label class="campo-titulo" for="mensagem"></label>
-                            <input name="mensagem" type="text" class="campo-escrita" placeholder="MESSAGE" maxlength="50" required>
+                            <textarea name="mensagem" type="text" class="campo-escrita" placeholder="MESSAGE" rows="4" maxlength="50" required></textarea>
                             <span class="mensagem-erro"></span>
                         </fieldset>
                         <div>
-                            <input value="Send Message" class="botao" id="enviar" type="submit">
+                            <input type="button" class="botao" id="botao" onclick="exibeAlert()" value="Send Message"/>
                             <span class="mensagem-erro"></span>
                         </div>
                     </form>

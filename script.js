@@ -60,3 +60,14 @@ function verificaCampo(campo) {
         mensagemErro.textContent = "";
     }
 }
+
+const botao = document.getElementById("botao");
+const mensagem = "Message sent, thank you!";
+
+function exibeAlert() {
+    alert(mensagem);
+}
+
+botao.addEventListener(onclick, (e) => {
+    exibeAlert();
+})

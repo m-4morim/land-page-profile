@@ -102,4 +102,29 @@
     .img-rings {
         width: 50%;
     }
+
+    .img-circle {
+        width: 3em;
+        top: 10em;
+        left: 8em;
+    }
+}
+
+@media screen and (min-width: 390px) {
+    .img-perfil {
+        width: 5em;
+        top: -.5em;
+    }
+
+    .navegacao-links {
+        display: flex;
+    }
+
+    .navegacao-links img {
+        width: 1em;
+    }
+
+    .apresentacao h1 {
+        font-size: 1.5em;
+    }
 }
