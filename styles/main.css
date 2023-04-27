@@ -110,17 +110,3 @@
         width: 60%;
     }
 }
-
-@media screen and (min-width: 390px) {
-    .titulo-stacks, .titulo-projects {
-        font-size: 1em;
-    }
-    
-    .img-stacks {
-        height: 1em;
-    }
-    
-    .projeto-1 img {
-        display: none;
-    }
-}
